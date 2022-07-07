@@ -35,15 +35,15 @@ def main():
     
     #getting input data from user
     
-    age=st.text_input('Age_in_years')
-    sex=st.text_input('Sex(1:male;0:female)')
+    age=st.text_input('Age')
+    sex=st.text_input('Sex')
     cp=st.text_input('Chest_pain_type')
     trestbps=st.text_input('Resting_blood_pressure')
     chol=st.text_input('Serum_Cholestoral')
-    fbs=st.text_input('Fasting_blood_sugar>120_mg/dl(1:true,0:false)')
+    fbs=st.text_input('Fasting_blood_sugar')
     restecg=st.text_input('Resting_Ecg')
     thalach=st.text_input('Maximum_heart_rate_achieved')
-    exang=st.text_input('Exercise_induced_angina(1:yes,0:no)')
+    exang=st.text_input('Exercise_induced_angina')
     oldpeak=st.text_input('Oldpeak')
     slope=st.text_input('Slope')
     ca=st.text_input('Number_of_major_vessels')
