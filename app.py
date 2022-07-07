@@ -35,18 +35,18 @@ def main():
     
     #getting input data from user
     
-    age=st.text_input('Age in years')
-    sex=st.text_input('Sex(1:male; 0:female)')
-    cp=st.text_input('Chest pain type')
-    trestbps=st.text_input('Resting blood pressure(in mm Hg)')
-    chol=st.text_input('Serum Cholestoral(in mg/dl)')
-    fbs=st.text_input('Fasting blood sugar>120 mg/dl(1:true, 0:false)')
-    restecg=st.text_input('Resting Ecg')
-    thalach=st.text_input('Maximum heart rate achieved')
-    exang=st.text_input('Exercise induced angina(1:yes, 0:no)')
+    age=st.text_input('Age_in_years')
+    sex=st.text_input('Sex(1:male;0:female)')
+    cp=st.text_input('Chest_pain_type')
+    trestbps=st.text_input('Resting_blood_pressure')
+    chol=st.text_input('Serum_Cholestoral')
+    fbs=st.text_input('Fasting_blood_sugar>120_mg/dl(1:true,0:false)')
+    restecg=st.text_input('Resting_Ecg')
+    thalach=st.text_input('Maximum_heart_rate_achieved')
+    exang=st.text_input('Exercise_induced_angina(1:yes,0:no)')
     oldpeak=st.text_input('Oldpeak')
     slope=st.text_input('Slope')
-    ca=st.text_input('Number of major vessels')
+    ca=st.text_input('Number_of_major_vessels')
     thal=st.text_input('Thal')
     
     #code for prediction
